@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/IMG_20220526_183713_1672249406546.jpg">
+    <title>Ravindu Vinusha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5fc8e94019.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background">
+        <!-- Navigation Links -->
+        <div class="navigation">
+            <a href="#" onclick="showSection('home')">Home</a>
+            <a href="#" onclick="showSection('about-me')">About Me</a>
+            <a href="#" onclick="showSection('portfolio')">Portfolio</a>
+            <a href="#" onclick="showSection('services')">Services</a>
+            <a href="#" onclick="showSection('contact-me')">Contact Me</a>
+        </div>
+        <div class="social-links">
+            <i class="fab fa-linkedin" onclick="window.open('https://www.linkedin.com/in/ravindu-vinusha-16037b263', '_blank');"></i>
+            <i class="fab fa-github" onclick="window.open('https://github.com/vinuwa0225', '_blank');"></i>
+            <i class="fa-brands fa-facebook" onclick="window.open('https://www.facebook.com/ravindu.vinusha.3?mibextid=ZbWKwL', '_blank');"></i>
+            <i class="fa-brands fa-instagram" onclick="window.open('https://www.instagram.com/.r_a_v_i_n_d_u._?utm_source=qr&igsh=emJkNDAwcHVlNHZl', '_blank');"></i>
+            <i class="fa-brands fa-youtube" onclick="window.open('https://www.youtube.com/channel/UClVaaKN5MSKww5arb7Z8Sng', '_blank');"></i>            
+        </div>
+
+        <!-- Home Section -->
+        <div id="home" class="section">
+            <div class="home-col-1">
+                <img src="Images/WhatsApp Image 2024-02-07 at 14.10.38_ca1be61c.jpg" >
+                <div class="hi">
+                    <h3>Hi,</h3>
+                </div>
+                <div class="welcome">
+                    <h4>Welcome to My Portfolio.</h4>
+                </div>
+                <div class="hire">
+                    <a href="#" class="hire-button" onclick="showHireMePopup()">Hire Me</a>
+                </div>
+                
+                <div class="cv">
+                    <a href="#download-cv" class="cv-button">Download My CV</a>
+                </div>
+            </div>
+            <div class="name">
+                <h1>Ravindu Vinusha Sahan</h1>
+            </div>
+            <div class="field">
+                <h2>Computer Engineer | Designer | Guitarist | Technician | Arbiter | Tutor</h2>
+            </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div id="about-me" class="section">
+            <div class="name">
+                <h1>About Me</h1>
+                <div class="about-col-1">
+                    <img src="Images/IMG_20231230_184813.jpg" style="width:50%; max-width:400px">
+                </div>
+                <div class="about-col-2">
+                <p> Hello! My name is Ravindu Vinusha, a passionate 22-year-old undergraduate student pursuing a degree in Computer Engineering at the General Sir John Kothelawela Defence University, along with a degree in Physical Science from the University of Sri Jayawardenapura. Hailing from the picturesque district of Badulla in Sri Lanka, I embarked on my academic journey with a keen interest in mathematics, completing my Advanced Level examinations in the Maths stream in 2021 and Ordinary Level examinations in 2018.<br>
+                    <br>
+                    Driven by my curiosity and love for technology, I've embarked on various learning adventures, including completing courses such as Full Stack Development at the University of Moratuwa, Artificial Intelligence & Machine Learning at SLIIT, and Graphic Designing at NYSCO. Additionally, I've honed my skills in networking through Cisco certification courses.<br>
+                    <br>
+                    In the realm of freelancing, I've explored diverse opportunities on platforms like Fiverr and Upwork. My repertoire includes graphic designing, mobile, laptop, and PC repairing, robotics, and Arduino programming, web and app development, UI/UX designing, ethical hacking, and software development. Beyond the digital domain, I find solace in strumming the guitar, strategizing over a game of chess, and embracing the camaraderie of football matches.<br>
+                    <br>
+                    Committed to sharing knowledge and nurturing talents, I also engage in tutoring sessions to impart my expertise to aspiring minds. With a vision to specialize in electronics within the field of computer engineering, I am driven by a relentless pursuit of knowledge and innovation.<br>
+                    <br>
+                    Join me as I embark on this exhilarating journey of exploration, learning, and growth in the fascinating world of technology!
+                </p>
+                </div>
+                <br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-image"></i>
+                            <h5>Graphic Designing</h5><br>
+                            <p>I have honed my skills in graphic designing through hands-on experience and formal training. From creating captivating posters to designing stunning logos, I excel in bringing creative visions to life through visual artistry.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-laptop"></i>
+                            <h5>Laptop Repairing</h5><br>
+                            <p>With a solid foundation in hardware diagnostics and repair techniques, I specialize in troubleshooting and fixing various laptop issues, ensuring optimal performance and longevity for my clients' devices.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h5>Mobile Phone Repairing</h5><br>
+                            <p>My expertise in mobile phone repairing spans across a wide range of devices and issues. Whether it's a cracked screen, a malfunctioning battery, or software glitches, I deliver reliable solutions to keep smartphones running smoothly.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h5>Ethical Hacking</h5><br>
+                            <p>As an ethical hacker, I leverage my knowledge of cybersecurity principles and penetration testing techniques to identify vulnerabilities and strengthen digital defenses. My ethical hacking skills help safeguard organizations from cyber threats.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-contents" id="experience">
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-image"></i>
+                            <h5>Graphic Designing</h5><h6>(2020-present)</h6><br>
+                            <p>Throughout my career, I've worked on numerous graphic designing projects, collaborating with clients to translate their ideas into visually appealing designs. From corporate branding to marketing materials, I deliver high-quality solutions that exceed expectations.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-laptop"></i>
+                            <h5>Laptop Repairing</h5><h6>(2020-present)</h6><br>
+                            <p>As a certified laptop repair technician, I've serviced a wide range of laptops, diagnosing hardware and software issues with precision and efficiency. My commitment to quality craftsmanship and customer satisfaction sets me apart in the field.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h5>Mobile Phone Repairing</h5><h6>(2020-present)</h6><br>
+                            <p>With years of experience in mobile phone repairing, I've established a reputation for reliability and expertise. From screen replacements to water damage repairs, I tackle every challenge with professionalism and attention to detail.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h5>Ethical Hacking</h5><h6>(2020-present)</h6><br>
+                            <p>As an ethical hacker, I've worked with organizations across various industries to assess and fortify their cybersecurity posture. By identifying vulnerabilities and implementing robust security measures, I help protect valuable digital assets from cyber threats.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-image"></i>
+                            <h5>Primary</h5><br>
+                            <h6>Uva College Badulla</h6><h7>(2008-2012)</h7><br>
+                            <p>I completed my primary education at Uva College Badulla, where I developed a strong academic foundation and cultivated a passion for learning.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-laptop"></i>
+                            <h5>Secondary</h5><br>
+                            <h6>Central College Bandarawela</h6><h7>(2013-2020)</h7><br>
+                            <h6>Central College Badulla</h6><h7>(2020-2022)</h7><br>
+                            <p>My secondary education journey took place at Central College Bandarawela and Central College Badulla, where I excelled academically while actively participating in extracurricular activities.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h5>Universities</h5><br>
+                            <h6>General Sir John Kothelawela Defence University</h6><h7>(2023-Present)</h7><br>
+                            <h6>University of Sri Jayawardenapura</h6><h7>(2023-Present)</h7><br>
+                            <p>I'm currently pursuing dual degrees in Computer Engineering from General Sir John Kothelawela Defence University and Physical Science from the University of Sri Jayawardenapura, expanding my knowledge and skills in diverse disciplines.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h5>Courses</h5><br>
+                            <h6>Full Stack Developer-UOM</h6><h7>(2022)</h7><br>
+                            <p>I completed a comprehensive Full Stack Developer course at the University of Moratuwa, gaining expertise in both front-end and back-end development technologies.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h5>Diplomas</h5><br>
+                            <h6>Graphic Design-NYSCO</h6><h7>(2022)</h7><br>
+                            <p>I obtained a diploma in Graphic Design from NYSCO, enhancing my creative skills and proficiency in visual communication.</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <!-- Portfolio Section -->
+<div id="portfolio" class="section">
+    <div class="name">
+        <h1>Portfolio</h1>
+        <div class="about-col-3">
+            <p>Explore some of my creative projects, including poster designs, flyer designs, brochure designs, and hardware and software projects.</p>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/flyer 1.jpg">
+                <div class="layer">
+                    <h5>Poster Designs</h5>
+                    <p>Check out my poster designs crafted with attention to detail and creativity to convey compelling messages.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/flyer 2.jpg">
+                <div class="layer">
+                    <h5>Flyer Designs</h5>
+                    <p>Explore my collection of flyer designs designed to capture attention and promote various events and products.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/flyer 4.jpg">
+                <div class="layer">
+                    <h5>Brochure Designs</h5>
+                    <p>Discover my brochure designs crafted to effectively communicate information and engage audiences.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/WhatsApp Image 2024-01-31 at 00.03.27_4adfa073.jpg">
+                <div class="layer">
+                    <h5>Hardware Projects</h5>
+                    <p>Explore some of the hardware projects I've worked on, combining creativity and technical expertise.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/t1.png">
+                <div class="layer">
+                    <h5>Software Projects</h5>
+                    <p>Check out my software projects demonstrating innovation, problem-solving, and technical proficiency.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Screenshot 2024-02-11 094222.png">
+                <div class="layer">
+                    <h5>Web Designs</h5>
+                    <p>View my web designs showcasing creativity, user experience optimization, and modern design trends.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+       <!-- Services Section -->
+<div id="services" class="section">
+    <div class="name">
+        <h1>Services</h1>
+        <div class="about-col-3">
+            <p>Explore the range of services I offer, including software development, UI/UX designing, mobile app development, web development, graphic designing, ethical hacking, and hardware repairing.</p>
+        </div>
+        <div class="career-grid">
+            <div class="career-item">
+                <img src="Images/sd.jpg" alt="Software Development">
+                <h5>Software Development</h5>
+                <p>I specialize in designing, coding, and testing computer software and applications. Whether it's web development, mobile app development, or desktop application development, I ensure high-quality solutions tailored to your needs.</p>
+            </div>
+            <div class="career-item">
+                <img src="Images/5757453-scaled.jpg" alt="UI/UX Designing">
+                <h5>UI/UX Designing</h5>
+                <p>Creating captivating user interfaces and seamless user experiences is my forte. I focus on ensuring usability, accessibility, and visual appeal in software applications, enhancing user engagement and satisfaction.</p>
+            </div>
+            <div class="career-item">
+                <img src="Images/Mobile-App-Developer-scaled-1.jpg" alt="Mobile App Development">
+                <h5>Mobile App Development</h5>
+                <p>From conceptualization to deployment, I excel in crafting mobile applications for various platforms, including Android and iOS. My expertise in languages like Java, Kotlin, Swift, and React Native ensures top-notch mobile solutions.</p>
+            </div>
+            <div class="career-item">
+                <img src="Images/se.jpg" alt="Web Development">
+                <h5>Web Development</h5>
+                <p>I specialize in creating responsive and feature-rich websites and web applications. With proficiency in both front-end and back-end development, I deliver dynamic web solutions tailored to your business requirements.</p>
+            </div>
+            <div class="career-item">
+                <img src="Images/qa-engineer.webp" alt="Graphic Designing">
+                <h5>Graphic Designing</h5>
+                <p>My graphic design expertise covers a wide range of applications, including branding, marketing collateral, and digital media. I create visually stunning designs that effectively communicate your message and captivate your audience.</p>
+            </div>
+            <div class="career-item">
+                <img src="Images/360_F_205932110_IWiDmketVT703mNPZ8eSn76Sa25QoSYw.jpg" alt="Ethical Hacking">
+                <h5>Ethical Hacking</h5>
+                <p>Protecting your digital assets is my priority. As an ethical hacker, I identify and address security vulnerabilities in your systems, ensuring robust cybersecurity defenses to safeguard your sensitive information.</p>
+            </div>
+            <div class="career-item">
+                <img src="Images/mobile-repairing-services.jpg" alt="Mobile Phone Repairing">
+                <h5>Mobile Phone Repairing</h5>
+                <p>I offer comprehensive mobile phone repair services, diagnosing and resolving hardware and software issues efficiently. From screen replacements to software troubleshooting, I ensure your mobile devices are back in optimal condition.</p>
+            </div>
+            <div class="career-item">
+                <img src="Images/laptop_repair.jpg" alt="Laptop/Desktop Repairing">
+                <h5>Laptop/Desktop Repairing</h5>
+                <p>Need your laptop or desktop fixed? Look no further. I provide expert repair services, diagnosing and repairing hardware and software issues to restore your devices' functionality. From component replacements to system optimizations, I've got you covered.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Contact Me Section -->
+        <div id="contact-me" class="section">
+            <div class="name">
+                <h1>Contact Me</h1>
+                <div class="about-col-3">
+                    <p>Feel free to reach out to me for any inquiries, collaborations, or just to say hello!</p>
+                </div>
+                <br>
+                <form action="contact.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                
+            </div>
+        </div>
+
+        <!-- Hire Me Popup -->
+        <div id="hire-me-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closeHireMePopup()">&times;</span>
+                <h1>Hire Me</h1>
+                <p>You can hire me on the following platforms:</p>
+                <div class="freelance-links">
+                    <a href="https://www.upwork.com/freelancers/~01391532a3287d4c0f" target="_blank">Upwork</a>
+                    <a href="https://www.fiverr.com/vinuwa?up_rollout=true" target="_blank">Fiverr</a>
+                    <!-- Add more freelance links as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 R.M.R.V.S.Rathnayaka. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
